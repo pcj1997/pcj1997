@@ -31,7 +31,19 @@ My focus goes beyond completing features. I care about observability, maintainab
 | **Automation** | Batch tasks, device operations, API testing, version management, delivery workflows, migration tools |
 | **Observability** | Service monitoring, container management, log search, operation log parsing, troubleshooting |
 | **Data Tooling** | Data cleaning, format conversion, configuration visualization, report export, complex file processing |
-| **Product Engineering** | Desktop GUI applications, web dashboards, lightweight services, cross-platform utilities |
+| **Web & Platform Engineering** | Modern frontends, REST APIs, access control, content interactions, file handling, persistence, production deployment |
+| **Product Engineering** | Desktop GUI applications, web dashboards, CLI tools, editor extensions, lightweight services, cross-platform utilities |
+
+## Web & Platform Engineering
+
+Beyond standalone tools, I can build website and platform products from the ground up for real-world use:
+
+- Build responsive interfaces, interaction flows, and maintainable component systems with modern frontend technologies.
+- Design decoupled frontend and backend architectures, REST APIs, authentication, role-based access control, and administration capabilities.
+- Deliver complete product flows including content presentation, search and filtering, community interactions, file uploads, and data migration.
+- Package AI capabilities as publishable, testable, and reusable platform services integrated into developer workflows.
+- Use relational databases, caching, object storage, and container orchestration to support scalable backend architectures.
+- Cover local development, production builds, service hosting, deployment configuration, and operations.
 
 ## Technical Depth
 
@@ -49,7 +61,8 @@ Systems and network tooling
 
 Product delivery
   ├─ Desktop applications
-  ├─ Web dashboards
+  ├─ Websites, web dashboards, and platform products
+  ├─ API services, CLI tools, and editor extensions
   ├─ Data visualization
   └─ Maintainable automation
 ```
@@ -64,9 +77,11 @@ Product delivery
 
 ## Tech Stack
 
-`Python` · `JavaScript` · `TypeScript` · `Go` · `Lua` · `HTML/CSS`
+`Python` · `JavaScript` · `TypeScript` · `Go` · `Lua` · `HTML/CSS` · `React` · `Vite`
 
-`Packet Analysis` · `RTP` · `Wireshark` · `Docker` · `Linux` · `OpenWrt`
+`REST API` · `PostgreSQL` · `Redis` · `Object Storage` · `Docker Compose`
+
+`Packet Analysis` · `RTP` · `Wireshark` · `Linux` · `OpenWrt`
 
 `AI Agents` · `API Integration` · `Automation` · `Monitoring` · `Data Visualization`
 

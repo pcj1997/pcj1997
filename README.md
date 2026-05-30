@@ -31,7 +31,19 @@
 | **自动化** | 批量任务、设备运维、接口测试、版本管理、发布流程、迁移工具 |
 | **可观测性** | 服务监控、容器管理、日志检索、操作日志解析、故障定位 |
 | **数据工具** | 数据清洗、格式转换、配置可视化、报表导出、复杂文件处理 |
-| **产品工程** | 桌面 GUI、Web 控制台、轻量级服务、跨平台实用工具 |
+| **网站与平台工程** | 现代前端、REST API、权限体系、内容交互、文件处理、数据持久化、生产部署 |
+| **产品工程** | 桌面 GUI、Web 控制台、CLI、编辑器扩展、轻量级服务、跨平台实用工具 |
+
+## 网站与平台工程
+
+我不仅构建单点工具，也能从零到一完成具备真实业务承载能力的网站和平台产品：
+
+- 使用现代前端技术构建响应式界面、交互流程和可维护的组件体系。
+- 设计前后端分离架构、REST API、用户认证、角色权限和管理能力。
+- 实现内容展示、搜索筛选、社区互动、文件上传和数据迁移等完整产品链路。
+- 将 AI 能力封装为可发布、可测试、可复用的平台服务，并接入开发者工作流。
+- 使用关系型数据库、缓存、对象存储和容器编排支撑可扩展的服务端架构。
+- 覆盖本地开发、生产构建、服务托管、部署配置和运行维护。
 
 ## 技术纵深
 
@@ -49,7 +61,8 @@ AI 原生工作流
 
 产品交付
   ├─ 桌面应用
-  ├─ Web 控制台
+  ├─ 网站、Web 控制台与平台产品
+  ├─ API 服务、CLI 与编辑器扩展
   ├─ 数据可视化
   └─ 可维护的自动化流程
 ```
@@ -64,9 +77,11 @@ AI 原生工作流
 
 ## 技术栈
 
-`Python` · `JavaScript` · `TypeScript` · `Go` · `Lua` · `HTML/CSS`
+`Python` · `JavaScript` · `TypeScript` · `Go` · `Lua` · `HTML/CSS` · `React` · `Vite`
 
-`Packet Analysis` · `RTP` · `Wireshark` · `Docker` · `Linux` · `OpenWrt`
+`REST API` · `PostgreSQL` · `Redis` · `Object Storage` · `Docker Compose`
+
+`Packet Analysis` · `RTP` · `Wireshark` · `Linux` · `OpenWrt`
 
 `AI Agents` · `API Integration` · `Automation` · `Monitoring` · `Data Visualization`
 
