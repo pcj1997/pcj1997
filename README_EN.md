@@ -46,15 +46,9 @@ Some of this experience comes from private engineering work. Only the generalize
 
 | Project | What it addresses |
 | --- | --- |
-| [**Viron**](https://github.com/pcj1997/viron) | A permissioned and auditable DevOps workspace combining web access, SSH, databases, Redis, host monitoring, and agents |
 | [**AI Hub**](https://github.com/pcj1997/AI-Hub) | Publishing, evaluation, version management, and IDE / CLI distribution for Skills, MCP servers, Agents, and Rules |
 | [**AI Traffic Light**](https://github.com/pcj1997/ai-traffic-light) | A macOS / Windows floating status light that aggregates multiple AI coding sessions through hooks |
-| [**OpenTester**](https://github.com/pcj1997/OpenTester) | MCP-first test execution infrastructure with a shared DSL for agent-driven code–test–fix loops |
 | [**Server Monitor**](https://github.com/pcj1997/server-monitor) | Lightweight Linux monitoring, container and service management, log access, and controlled operations |
-
-### Open-source Collaboration
-
-- [Multica #7299](https://github.com/multica-ai/multica/pull/7299) — adds a list-grid fallback for Chromium 116, which lacks CSS Grid `subgrid`; validated against real Chrome 116 across Agents, Skills, and Autopilots, plus the full frontend test and build pipeline.
 
 ## Technical Depth
 

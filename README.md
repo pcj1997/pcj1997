@@ -46,15 +46,9 @@
 
 | 项目 | 解决的问题 |
 | --- | --- |
-| [**Viron**](https://github.com/pcj1997/viron) | 将 Web、SSH、数据库、Redis、主机监控和 Agent 汇入一个具备权限与审计能力的开发运维工作台 |
 | [**AI Hub**](https://github.com/pcj1997/AI-Hub) | 面向 Skill、MCP、Agent 与 Rule 的发布、评测、版本管理和 IDE / CLI 分发平台 |
 | [**AI Traffic Light**](https://github.com/pcj1997/ai-traffic-light) | 通过 Hooks 聚合多个 AI 编程会话状态的 macOS / Windows 桌面悬浮状态灯 |
-| [**OpenTester**](https://github.com/pcj1997/OpenTester) | 以 MCP 和统一 DSL 为核心的测试执行基础设施，支持 Agent 驱动的“编码—测试—修复”闭环 |
 | [**Server Monitor**](https://github.com/pcj1997/server-monitor) | 轻量级 Linux 服务器监控、容器与服务管理、日志查看及受控运维操作 |
-
-### 开源协作
-
-- [Multica #7299](https://github.com/multica-ai/multica/pull/7299)：为不支持 CSS Grid `subgrid` 的 Chromium 116 增加列表网格回退；使用真实 Chrome 116 验证 Agents、Skills、Autopilots 列表，并通过完整前端测试与构建。
 
 ## 技术纵深
 
