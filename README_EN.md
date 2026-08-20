@@ -4,14 +4,14 @@
 
 # Aceissi
 
-**AI Engineering · Network Analysis · Automation · Systems Tooling**
+**AI Engineering · Developer Tooling · Diagnostic Systems · Platform Engineering**
 
-Turning complex systems into clear, reliable, and sustainable engineering tools.
+Turning complex field conditions, engineering workflows, and system problems into reliable, verifiable, and sustainable software.
 
 [![Python](https://img.shields.io/badge/Python-Engineering-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-Product_Tooling-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Web_Applications-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Product_Engineering-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Go](https://img.shields.io/badge/Go-Systems_Tooling-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
+[![Rust](https://img.shields.io/badge/Rust-Desktop_Tooling-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Lua](https://img.shields.io/badge/Lua-Protocol_Extensions-2C2D72?style=flat-square&logo=lua&logoColor=white)](https://www.lua.org/)
 
 </div>
@@ -20,70 +20,82 @@ Turning complex systems into clear, reliable, and sustainable engineering tools.
 
 I am a product-minded engineer who turns complex problems from real working environments into software tools people can use directly.
 
-My focus goes beyond completing features. I care about observability, maintainability, and a reliable delivery experience. From low-level protocol analysis to desktop tools, web dashboards, and AI-driven workflows, I enjoy solving problems that span multiple layers of the technology stack.
+I care not only about feature delivery, but also about observability, compatibility, security boundaries, regression testing, and reliable releases. From protocols and device behavior to desktop clients, web platforms, CLI/daemon systems, and agent-driven diagnosis and development workflows, I enjoy solving problems across multiple layers of the stack.
+
+## Current Focus
+
+- **Agent-native engineering platforms** — building installable, upgradable, and auditable systems for agents, skills, MCP servers, rules, and toolchains across web, desktop, CLI, and daemon surfaces.
+- **Evidence-driven diagnosis** — unifying logs, databases, packet captures, versions, and source evidence so complex inputs can be processed safely and conclusions remain traceable and reviewable.
+- **Intelligent quality automation** — engineering hardware/software test workflows around visual state detection, power-cycle state machines, anomaly classification, and long-running regression.
+- **Reliable platform delivery** — working on real-time state convergence, concurrency correctness, legacy compatibility, cross-platform packaging, offline deployment, and repeatable verification.
+
+Some of this experience comes from private engineering work. Only the generalized technical capabilities are described here; project names, organizations, business data, and internal implementations are intentionally excluded.
 
 ## Core Capabilities
 
 | Area | Technical Focus |
 | --- | --- |
-| **AI Engineering** | Agent workflows, API adaptation, reusable skills, AI-assisted development, automated data analysis |
-| **Network & Protocols** | Packet inspection, protocol parsing, RTP media stream processing, Wireshark extensions, network device debugging |
-| **Automation** | Batch tasks, device operations, API testing, version management, delivery workflows, migration tools |
-| **Observability** | Service monitoring, container management, log search, operation log parsing, troubleshooting |
-| **Data Tooling** | Data cleaning, format conversion, configuration visualization, report export, complex file processing |
-| **Web & Platform Engineering** | Modern frontends, REST APIs, access control, content interactions, file handling, persistence, production deployment |
-| **Product Engineering** | Desktop GUI applications, web dashboards, CLI tools, editor extensions, lightweight services, cross-platform utilities |
+| **AI Engineering** | Agent workflows, Skill / MCP packaging, capability distribution, tool use, AI-assisted development |
+| **Diagnostic Systems** | Multi-source evidence normalization, workflow orchestration, nested input processing, timelines, auditability, troubleshooting |
+| **Networks & Devices** | Packet inspection, protocol parsing, RTP media processing, Wireshark extensions, device automation |
+| **Platform Engineering** | Modern frontends, REST / WebSocket APIs, access control, real-time state, persistence, private deployment |
+| **Quality Engineering** | Real-browser regression, cross-platform testing, state machines, compatibility verification, CI/CD and releases |
+| **Product Engineering** | Desktop GUI applications, web dashboards, CLI tools, daemons, editor extensions, cross-platform utilities |
 
-## Web & Platform Engineering
+## Public Projects
 
-Beyond standalone tools, I can build website and platform products from the ground up for real-world use:
+| Project | What it addresses |
+| --- | --- |
+| [**Viron**](https://github.com/pcj1997/viron) | A permissioned and auditable DevOps workspace combining web access, SSH, databases, Redis, host monitoring, and agents |
+| [**AI Hub**](https://github.com/pcj1997/AI-Hub) | Publishing, evaluation, version management, and IDE / CLI distribution for Skills, MCP servers, Agents, and Rules |
+| [**AI Traffic Light**](https://github.com/pcj1997/ai-traffic-light) | A macOS / Windows floating status light that aggregates multiple AI coding sessions through hooks |
+| [**OpenTester**](https://github.com/pcj1997/OpenTester) | MCP-first test execution infrastructure with a shared DSL for agent-driven code–test–fix loops |
+| [**Server Monitor**](https://github.com/pcj1997/server-monitor) | Lightweight Linux monitoring, container and service management, log access, and controlled operations |
 
-- Build responsive interfaces, interaction flows, and maintainable component systems with modern frontend technologies.
-- Design decoupled frontend and backend architectures, REST APIs, authentication, role-based access control, and administration capabilities.
-- Deliver complete product flows including content presentation, search and filtering, community interactions, file uploads, and data migration.
-- Package AI capabilities as publishable, testable, and reusable platform services integrated into developer workflows.
-- Use relational databases, caching, object storage, and container orchestration to support scalable backend architectures.
-- Cover local development, production builds, service hosting, deployment configuration, and operations.
+### Open-source Collaboration
+
+- [Multica #7299](https://github.com/multica-ai/multica/pull/7299) — adds a list-grid fallback for Chromium 116, which lacks CSS Grid `subgrid`; validated against real Chrome 116 across Agents, Skills, and Autopilots, plus the full frontend test and build pipeline.
 
 ## Technical Depth
 
 ```text
 AI-native workflows
-  ├─ Agent orchestration and reusable skills
-  ├─ API adaptation and workflow automation
-  └─ Human-in-the-loop productivity tools
+  ├─ Agent orchestration, Skills / MCP, and capability distribution
+  ├─ CLI / daemon / Desktop / Web integration
+  └─ Human-in-the-loop workflows, access boundaries, and auditing
 
-Systems and network tooling
-  ├─ Packet inspection and protocol analysis
-  ├─ Media stream extraction and processing
-  ├─ Device automation and operational utilities
-  └─ Monitoring, logs, and troubleshooting
+Diagnosis and quality engineering
+  ├─ Logs, databases, packets, versions, and source evidence
+  ├─ Bounded nested-input processing and traceable workflows
+  ├─ Device state detection, test state machines, and anomaly classification
+  └─ Real-environment regression, compatibility testing, and CI
 
-Product delivery
-  ├─ Desktop applications
-  ├─ Websites, web dashboards, and platform products
-  ├─ API services, CLI tools, and editor extensions
-  ├─ Data visualization
-  └─ Maintainable automation
+Product and systems delivery
+  ├─ Desktop applications, web platforms, and developer tools
+  ├─ APIs, real-time communication, data, and permission systems
+  ├─ Network analysis, device automation, and operational tooling
+  └─ Cross-platform packaging, offline deployment, and operations
 ```
 
 ## Engineering Principles
 
-- Start from real pain points and solve recurring problems.
-- Make complex operations observable, repeatable, and maintainable.
-- Balance low-level analytical depth with a practical product experience.
-- Choose technology to fit the problem, without adding unnecessary complexity.
-- Keep clear boundaries between public content, internal implementations, and third-party references.
+- Start from real pain points and turn one-off handling into reusable system capabilities.
+- Give complex operations explicit state, observable progress, and verifiable outcomes.
+- Set clear boundaries for untrusted inputs, resource budgets, permissions, and sensitive information.
+- Validate critical behavior in real environments and regression suites, not only in theory.
+- Separate public work, private practice, and third-party references; share capabilities without exposing internal details.
 
 ## Tech Stack
 
-`Python` · `JavaScript` · `TypeScript` · `Go` · `Lua` · `HTML/CSS` · `React` · `Vite`
+`Python` · `TypeScript` · `JavaScript` · `Go` · `Rust` · `Lua` · `HTML/CSS`
 
-`REST API` · `PostgreSQL` · `Redis` · `Object Storage` · `Docker Compose`
+`React` · `Vite` · `Tauri` · `FastAPI` · `REST API` · `WebSocket`
 
-`Packet Analysis` · `RTP` · `Wireshark` · `Linux` · `OpenWrt`
+`PostgreSQL` · `SQLite` · `Redis` · `Object Storage` · `Docker Compose`
 
-`AI Agents` · `API Integration` · `Automation` · `Monitoring` · `Data Visualization`
+`Playwright` · `GitHub Actions` · `Linux` · `Windows` · `macOS` · `OpenWrt`
+
+`Packet Analysis` · `RTP` · `Wireshark` · `AI Agents` · `MCP` · `Automation`
 
 ---
 

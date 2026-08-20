@@ -4,14 +4,14 @@
 
 # Aceissi
 
-**AI 工程 · 网络分析 · 自动化 · 系统工具**
+**AI 工程 · 开发者工具 · 诊断系统 · 平台工程**
 
-把复杂系统拆解成清晰、可靠、可持续演进的工程工具。
+把复杂现场、工程流程和系统问题，收敛成可靠、可验证、可持续演进的软件。
 
 [![Python](https://img.shields.io/badge/Python-Engineering-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-Product_Tooling-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Web_Applications-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Product_Engineering-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Go](https://img.shields.io/badge/Go-Systems_Tooling-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
+[![Rust](https://img.shields.io/badge/Rust-Desktop_Tooling-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Lua](https://img.shields.io/badge/Lua-Protocol_Extensions-2C2D72?style=flat-square&logo=lua&logoColor=white)](https://www.lua.org/)
 
 </div>
@@ -20,70 +20,82 @@
 
 我是一个偏产品思维的工程师，擅长把真实工作场景中的复杂问题，收敛成可以直接使用的软件工具。
 
-我的关注点不只是完成一个功能，而是让系统具备可观测性、可维护性和稳定的交付体验。从底层协议分析，到桌面工具、Web 控制台，再到 AI 驱动的工作流，我喜欢处理那些跨越多个技术层次的问题。
+我关注的不只是功能完成，还包括可观测性、兼容性、安全边界、回归验证和稳定交付。从协议与设备问题，到桌面客户端、Web 平台、CLI/daemon，再到 Agent 驱动的诊断与研发流程，我喜欢处理跨越多个技术层次的问题。
+
+## 近期方向
+
+- **Agent 原生工程平台**：将 Agent、Skill、MCP、规则和工具链做成可安装、可升级、可审计的能力体系，覆盖 Web、桌面端、CLI 与 daemon。
+- **证据驱动的问题诊断**：统一处理日志、数据库、报文、版本与源码证据；让复杂材料可安全解析、过程可追溯、结论可复核。
+- **智能质量与自动化测试**：构建设备与软件协同的测试流程，处理视觉状态识别、上下电状态机、异常分类和长时间回归。
+- **可靠的平台交付**：关注实时状态同步、并发一致性、旧环境兼容、跨平台打包、离线部署与可重复验证。
+
+这些方向中包含私有工程实践；这里只呈现抽象后的技术能力，不公开项目名称、组织信息、业务数据或内部实现。
 
 ## 核心能力
 
 | 方向 | 技术要领 |
 | --- | --- |
-| **AI 工程** | Agent 工作流、API 适配、技能封装、AI 辅助开发、自动化数据分析 |
-| **网络与协议** | 抓包分析、协议解析、RTP 音视频流处理、Wireshark 扩展、网络设备调试 |
-| **自动化** | 批量任务、设备运维、接口测试、版本管理、发布流程、迁移工具 |
-| **可观测性** | 服务监控、容器管理、日志检索、操作日志解析、故障定位 |
-| **数据工具** | 数据清洗、格式转换、配置可视化、报表导出、复杂文件处理 |
-| **网站与平台工程** | 现代前端、REST API、权限体系、内容交互、文件处理、数据持久化、生产部署 |
-| **产品工程** | 桌面 GUI、Web 控制台、CLI、编辑器扩展、轻量级服务、跨平台实用工具 |
+| **AI 工程** | Agent 工作流、Skill / MCP 封装、能力分发、工具调用、AI 辅助开发 |
+| **诊断系统** | 多源证据归一、工作流编排、嵌套材料解析、时间线与审计、故障定位 |
+| **网络与设备** | 抓包分析、协议解析、RTP 音视频流处理、Wireshark 扩展、设备自动化 |
+| **平台工程** | 现代前端、REST / WebSocket、权限体系、实时状态、数据持久化、私有化部署 |
+| **质量工程** | 真实浏览器回归、跨平台测试、状态机、兼容性验证、CI/CD 与发布流程 |
+| **产品工程** | 桌面 GUI、Web 控制台、CLI、daemon、编辑器扩展、跨平台工具 |
 
-## 网站与平台工程
+## 公开项目
 
-我不仅构建单点工具，也能从零到一完成具备真实业务承载能力的网站和平台产品：
+| 项目 | 解决的问题 |
+| --- | --- |
+| [**Viron**](https://github.com/pcj1997/viron) | 将 Web、SSH、数据库、Redis、主机监控和 Agent 汇入一个具备权限与审计能力的开发运维工作台 |
+| [**AI Hub**](https://github.com/pcj1997/AI-Hub) | 面向 Skill、MCP、Agent 与 Rule 的发布、评测、版本管理和 IDE / CLI 分发平台 |
+| [**AI Traffic Light**](https://github.com/pcj1997/ai-traffic-light) | 通过 Hooks 聚合多个 AI 编程会话状态的 macOS / Windows 桌面悬浮状态灯 |
+| [**OpenTester**](https://github.com/pcj1997/OpenTester) | 以 MCP 和统一 DSL 为核心的测试执行基础设施，支持 Agent 驱动的“编码—测试—修复”闭环 |
+| [**Server Monitor**](https://github.com/pcj1997/server-monitor) | 轻量级 Linux 服务器监控、容器与服务管理、日志查看及受控运维操作 |
 
-- 使用现代前端技术构建响应式界面、交互流程和可维护的组件体系。
-- 设计前后端分离架构、REST API、用户认证、角色权限和管理能力。
-- 实现内容展示、搜索筛选、社区互动、文件上传和数据迁移等完整产品链路。
-- 将 AI 能力封装为可发布、可测试、可复用的平台服务，并接入开发者工作流。
-- 使用关系型数据库、缓存、对象存储和容器编排支撑可扩展的服务端架构。
-- 覆盖本地开发、生产构建、服务托管、部署配置和运行维护。
+### 开源协作
+
+- [Multica #7299](https://github.com/multica-ai/multica/pull/7299)：为不支持 CSS Grid `subgrid` 的 Chromium 116 增加列表网格回退；使用真实 Chrome 116 验证 Agents、Skills、Autopilots 列表，并通过完整前端测试与构建。
 
 ## 技术纵深
 
 ```text
 AI 原生工作流
-  ├─ Agent 编排与可复用技能
-  ├─ API 适配与流程自动化
-  └─ 人机协同效率工具
+  ├─ Agent 编排、Skill / MCP 与能力分发
+  ├─ CLI / daemon / Desktop / Web 协同
+  └─ 人机协作、权限边界与审计
 
-系统与网络工具
-  ├─ 数据包检查与协议分析
-  ├─ 媒体流提取与处理
-  ├─ 设备自动化与运维工具
-  └─ 监控、日志与故障排查
+诊断与质量工程
+  ├─ 日志、数据库、报文、版本与源码证据
+  ├─ 有边界的嵌套材料解析与可追溯流程
+  ├─ 设备状态识别、测试状态机与异常分类
+  └─ 真实环境回归、兼容性验证与 CI
 
-产品交付
-  ├─ 桌面应用
-  ├─ 网站、Web 控制台与平台产品
-  ├─ API 服务、CLI 与编辑器扩展
-  ├─ 数据可视化
-  └─ 可维护的自动化流程
+产品与系统交付
+  ├─ 桌面应用、Web 平台与开发者工具
+  ├─ API、实时通信、数据与权限系统
+  ├─ 网络分析、设备自动化与运维工具
+  └─ 跨平台打包、离线部署与运行维护
 ```
 
 ## 工程理念
 
-- 从真实痛点出发，让工具解决可重复出现的问题。
-- 将复杂操作变成可观察、可复用、可维护的流程。
-- 在底层分析能力与产品化体验之间保持平衡。
-- 用合适的技术解决问题，不为复杂而复杂。
-- 对公开内容、内部实现和第三方参考保持清晰边界。
+- 从真实痛点出发，把一次性处理变成可复用的系统能力。
+- 让复杂操作具备明确状态、可观察过程和可验证结果。
+- 对不可信输入、资源预算、权限与敏感信息设置清晰边界。
+- 用真实环境和回归测试验证关键行为，不只满足于“理论可行”。
+- 区分公开成果、私有实践与第三方参考，公开能力但不泄露内部细节。
 
 ## 技术栈
 
-`Python` · `JavaScript` · `TypeScript` · `Go` · `Lua` · `HTML/CSS` · `React` · `Vite`
+`Python` · `TypeScript` · `JavaScript` · `Go` · `Rust` · `Lua` · `HTML/CSS`
 
-`REST API` · `PostgreSQL` · `Redis` · `Object Storage` · `Docker Compose`
+`React` · `Vite` · `Tauri` · `FastAPI` · `REST API` · `WebSocket`
 
-`Packet Analysis` · `RTP` · `Wireshark` · `Linux` · `OpenWrt`
+`PostgreSQL` · `SQLite` · `Redis` · `Object Storage` · `Docker Compose`
 
-`AI Agents` · `API Integration` · `Automation` · `Monitoring` · `Data Visualization`
+`Playwright` · `GitHub Actions` · `Linux` · `Windows` · `macOS` · `OpenWrt`
+
+`Packet Analysis` · `RTP` · `Wireshark` · `AI Agents` · `MCP` · `Automation`
 
 ---
 
